@@ -5,103 +5,98 @@
 
 <img width="1502" height="892" alt="image" src="https://github.com/user-attachments/assets/1d282b93-c03d-472b-89a8-07b48578e38c" />
 
-1️⃣ Alphabet Program (do-while loop)
-char alpha ='a';
+🔹 Program 1: Print Alphabets Using do-while Loop
 
-do
-{
-    printf("%c ",alpha);
-    alpha = alpha + 4;
-} while (alpha <= 'z');
-🔹 Logic (Easy Language)
+link:https://onlinegdb.com/yecuzAU0th
 
-alpha = 'a' → starting letter a
+This program prints alphabets starting from 'a' and increases by 4 letters each time until it reaches 'z'.
 
-do block pehle execute hota hai
+💻 Code Logic
 
-Har baar:
+Initialize a character variable alpha = 'a'
 
-letter print hoga
+Use do-while loop
 
-usme 4 add hoga (alpha = alpha + 4)
+Print character
 
-Jab tak letter 'z' se chhota ya equal hai tab tak loop chalega
+Increase character value by 4
 
-🔹 Output kya aayega?
+Continue loop while alpha <= 'z'
+
+▶ Example Output
 a e i m q u y
-🔹 Iteration Samjho
-Iteration	alpha value	Print
-1	a	a
-2	e	e
-3	i	i
-4	m	m
-5	q	q
-6	u	u
-7	y	y
-✅ 2️⃣ Count Total Digits Program (while loop)
-while (no != 0)
-{
-    no = no / 10;
-    count++;
-}
-🔹 Logic (Easy Hindi)
 
-User number enter karega (maan lo 12345)
 
-Jab tak number 0 nahi hota, tab tak:
+🔹 Program 2: Count Total Digits in a Number
 
-Number ko 10 se divide karo
+link:https://onlinegdb.com/9Ay9lP4V-M
 
-count +1 karo
+This program counts the total number of digits in a given number using a while loop.
 
-🔹 Example (12345)
-Step	no value	count
-1	12345	0
-2	1234	1
-3	123	2
-4	12	3
-5	1	4
-6	0	5
+💻 Code Logic
+
+Take input from user
+
+Initialize count = 0
+
+Divide number by 10 repeatedly
+
+Increase count each time
+
+Stop when number becomes 0
+
+▶ Example
+
+Input:
+
+12345
 
 Output:
 
 Total digits: 5
 
-👉 Har divide se ek digit remove hoti hai.
 
-✅ 3️⃣ First and Last Digit Sum Program
-last = num % 10;
+🔹 Program 3: Sum of First and Last Digit
 
-👉 % 10 se last digit milti hai.
+link:https://onlinegdb.com/AeJN-zHOKz
 
-while (num >= 10)
-{
-    num = num / 10;
-}
+This program finds the first and last digit of a number and prints their sum.
 
-👉 Loop tab tak chalega jab tak number 1 digit ka na ho jaye.
+💻 Code Logic
 
-first = num;
+Take number input
 
-👉 Ab num me sirf first digit bachi hogi.
+Find last digit using % 10
 
-🔹 Example (Enter 4567)
+Use while loop to reduce number until one digit remains
 
-last = 4567 % 10 = 7
+That remaining digit is the first digit
 
-Loop chalega:
+Add first and last digit
 
-4567 → 456
+▶ Example
 
-456 → 45
+Input:
 
-45 → 4
-
-first = 4
-
-sum = 4 + 7 = 11
+4567
 
 Output:
 
 sum of digit: 11
+🛠 Technologies Used
 
+C Programming Language
+
+Loops (while, do-while)
+
+Arithmetic Operators (/, %)
+
+📚 Concepts Covered
+
+Character increment
+
+Loop iteration
+
+Digit extraction
+
+Number manipulation
